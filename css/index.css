@@ -1,0 +1,145 @@
+/* 페이지 초기화 css */
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation css */
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.gnb { 
+    width : 100%; height : 70px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-left: 130px; padding-right: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0; left: 0;
+     }
+
+.gnb_center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb_left_a, .gnb_left_b, .gnb_left_c, .gnb_right_a {
+    color: rgba(255,255,255, 1);
+    margin-left : 46px;
+    margin-right : 46px;
+}
+
+.gnb_search_a {
+    color: rgba(255,255,255, 1);
+    margin-left : 46px;
+    margin-right : 46px;
+}
+
+.gnb_left {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.gnb_right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb_right_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb_button {
+    margin-left: 29px;
+}
+
+/* hero section css */
+
+.hero {
+    width:100%; height:960px;
+    background-image: url(../img/hero_1.png);
+    padding-left: 130px; padding-right: 130px;
+    padding-top: 148px;
+    color:rgba(255,255,255, 1);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero_subtitle {
+    font-family: 'Futura PT';
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+
+}
+
+.hero_title {
+    font-family: 'Futura PT';
+    font-size:90px;
+    line-height: 90px;
+    font-weight: 400;
+
+    margin-top: 20px;
+}
+
+.hero_link_more {
+    width: 120px;
+    height: 40px;
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 1);
+
+    background-color: rgba(255,255,255, 1);
+    border:none;
+    border-radius: 6px;
+
+    margin-top: 60px;
+}
+
+.hero_plus {
+    display: flex;
+    justify-content: between;
+    margin-top: 400px;
+}
+
+.hero_sns {
+    display: flex;
+}
+
+.hero_sns_a {
+    margin-right:50px;
+    color: rgba(255,255,255, 1);
+
+}
+
+.hero_slide_index {
+    display: flex;
+}
+
+.hero_slide_index_bar {
+    margin-left: 30px; margin-right: 30px;
+}
+
+.hero_slide_index_bar {
+    width: 120px; height: 4px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, 1);
+}
+
+.hero_slide_index_progress {
+    width: 40px; height: 4px;
+    border-radius: 2px;
+    background-color: rgba(255,0,0,1);
+}
